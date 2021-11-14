@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Suivez tous les détails du mariage d'Anne Giammarinaro et Grégory Pelletey : date, lieu, contact etc...">
+    <meta name="author" content="Grégory Pelletey">
+
+    <title>Mariage d'Anne Giammarinaro et Gr&eacute;gory Pelletey</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/mariage.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+    header .container {
+        padding-bottom: 60px;
+    }
+    header .intro-text {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .intro-text p {
+        font-size: 4em;
+        line-height: 1em;
+        text-shadow:1px 1px 1px #000;
+    }
+    .intro-text p big {
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-family: "Arial Black";
+        color:pink;
+    }
+    .intro-text p big i {
+        font-size: 1.25em;
+    }
+    #contactForm input, #contactForm textarea {
+        padding:30px;
+        font-size: 1.5em;
+    }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <section>
+            <div class="container">
+                <div class="intro-text">
+                    <div class="intro-lead-in">Anne <span class="pharmount">&amp;</span> Greg se marient</div>
+                    <div class="intro-heading">26.09.2015</div>
+                    <p class="text-center">Donnez nous un <big>gros</big> coup de <big><i class="fa fa-thumbs-up"></i></big> ! Remplissez les infos ci-dessous :)</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <form name="sentMessage" id="contactForm" novalidate>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Votre nom *" id="name" required data-validation-required-message="Merci de saisir votre nom.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Votre email *" id="email" required data-validation-required-message="Merci de saisir votre email.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" placeholder="Votre numéro de téléphone *" id="phone" required data-validation-required-message="Merci de saisir votre numéro de téléphone.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Votre adresse *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Aller, c'est parti mon kiki !!!</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="copyright">Copyright &copy; ptitgraig 2014</span><br/>
+                    MARIAGE ANNE <span class="pharamunt">&</span> GREG
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
+</html>
