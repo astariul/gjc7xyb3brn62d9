@@ -29,34 +29,6 @@
     font-style: normal;
 }
 
-/* pour le & */
-@font-face {
-    font-family: 'pharmount';
-    src: url('../fonts/pharmount_personaluseonly-webfont.eot');
-    src: url('../fonts/pharmount_personaluseonly-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/pharmount_personaluseonly-webfont.woff2') format('woff2'),
-         url('../fonts/pharmount_personaluseonly-webfont.woff') format('woff'),
-         url('../fonts/pharmount_personaluseonly-webfont.ttf') format('truetype'),
-         url('../fonts/pharmount_personaluseonly-webfont.svg#pharmount_personal_use_onlyRg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-/* pour les chiffres dates */
-@font-face {
-    font-family: 'ecuyerdaxregular';
-    src: url('../fonts/ecuyerr-webfont.eot');
-    src: url('../fonts/ecuyerr-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ecuyerr-webfont.woff2') format('woff2'),
-         url('../fonts/ecuyerr-webfont.woff') format('woff'),
-         url('../fonts/ecuyerr-webfont.ttf') format('truetype'),
-         url('../fonts/ecuyerr-webfont.svg#ecuyerdaxregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 @font-face {
     font-family: 'birds_of_paradiseregular';
     src: url('../fonts/birds_of_paradise__personal_use_only.eot');
@@ -86,7 +58,7 @@
 
 /* & */
 .pharmount {
-    font-family: "pharmount", Arial, sans-serif !important;
+    font-family: 'Sacramento', cursive;
 }
 
 body {
@@ -405,7 +377,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: 'Indie Flower', cursive;
     color: #b3ddc4;
 }
 
@@ -559,7 +531,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Indie Flower', cursive;
     font-size: 100px;
     font-weight: 700;
     /*font-style: italic;*/
@@ -571,7 +543,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: "ecuyerdaxregular", Helvetica,Arial,sans-serif;
+    font-family: 'Cabin Sketch', cursive;
     font-size: 50px;
     line-height: 50px;
     color: #f1f1f1;
@@ -586,7 +558,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Kaushan Script", Helvetica,Arial,sans-serif;
+        font-family: 'Indie Flower', cursive;
         font-size: 70px;
         line-height: 40px;
     }
@@ -594,7 +566,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: "ecuyerdaxregular", Helvetica,Arial,sans-serif;
+        font-family: 'Cabin Sketch', cursive;
         font-size: 75px;
         line-height: 75px;
     }
@@ -761,7 +733,7 @@ section h3.section-subheading {
 }
 .timeline.stickleft .timeline-heading h4 span{
     font-size: 60px;
-    font-family: "ecuyerdaxregular";
+    font-family: 'Cabin Sketch', cursive;
     font-weight: 500;
     color: #fff;
 }
