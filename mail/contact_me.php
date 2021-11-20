@@ -35,7 +35,7 @@ $out='';
 $res=false;
 
 // Create the email and send the message
-$to = 'mariage.greg.anne@gmail.com';
+$to = 'mariage.mira.nicolas@gmail.com';
 $email_subject = "[RSVP] - $name a repondu a l'invitation";
 $email_body = "
    <h4>$name a répondu à l'invitation !!</h4>
@@ -49,23 +49,15 @@ $email_body = "
          $email_address<br/>
          $phone
       </dd>
-   </dl>
-   <p>Ces informations ont été automatiquement enregistrées dans un fichier excel.<br/>
-   <a href='http://ptitgraig.free.fr/mariage-greg-anne/liste_invites.csv'>Cliquez ici pour le consulter</a></p>";
-$headers  = "From: noreply@mariage-greg-anne.fr\n";
+   </dl>";
+$headers  = "From: noreply@remond.co\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=utf-8\r\n";
-$headers .= "Return-Path: ptitgraig@free.fr\r\n";
+$headers .= "Return-Path: remondnicola@gmail.com\r\n";
 //mail($to,$email_subject,$email_body,$headers);
 if (mailFree( $to, $email_subject , $email_body, $headers )==false) {
    echo "<pre style='border: 1px dotted #666666;padding:10px;'><code>L'envoi du message n'a pas été réalisé en raison des limitations des serveurs de Free, merci de réessayer un peu plus tard.</code></pre>";
    $res=false;
-} else {
-   $fp = fopen('../liste_invites.csv', 'a');
-   $data = $name.";".$email_address.";".$phone.";".$rsvp."\n";
-   fwrite($fp, $data);
-   fclose($fp);
-   $res=true;
 }
 return $res;
 ?>
