@@ -52,6 +52,10 @@
     font-family: 'Gamja Flower', cursive;
 }
 
+.blanc {
+    color: #f7f7f7;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -706,7 +710,7 @@ section h3.section-subheading {
     content: "";
     position: absolute;
     top: -30px;
-    bottom: 0;
+    bottom: -30px;
     left: 100px;
     width: 40px;
     margin-left: -20px;
@@ -715,7 +719,7 @@ section h3.section-subheading {
 }
 .timeline.stickleft .timeline-heading h4 {
     position: absolute;
-    top: -66px;
+    top: -75px;
     right: 72px;
     color: #fff;
     font-size: 54px;
@@ -734,7 +738,7 @@ section h3.section-subheading {
     color: #FFF;
     font-size: 30px;
     font-family: "Montserrat";
-    top: -49px;
+    top: -55px;
     font-weight: 500;
 }
 
