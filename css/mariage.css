@@ -42,23 +42,14 @@
 
 }
 
-/* manuscrite, pour les témoignage des mariés */
-@font-face {
-    font-family: 'kg_eyes_wide_openregular';
-    src: url('../fonts/kgeyeswideopen-webfont.eot');
-    src: url('../fonts/kgeyeswideopen-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/kgeyeswideopen-webfont.woff2') format('woff2'),
-         url('../fonts/kgeyeswideopen-webfont.woff') format('woff'),
-         url('../fonts/kgeyeswideopen-webfont.ttf') format('truetype'),
-         url('../fonts/kgeyeswideopen-webfont.svg#kg_eyes_wide_openregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 /* & */
 .pharmount {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Petemoss', cursive;
+}
+
+/* Korean */
+.kor {
+    font-family: 'Gamja Flower', cursive;
 }
 
 body {
@@ -69,7 +60,7 @@ body {
 .text-muted {
     color: #323232;
     font-size: 20px;
-    font-family: "kg_eyes_wide_openregular", sans-serif;
+    font-family: 'Indie Flower', cursive;
 }
 
 .text-primary {
@@ -728,7 +719,7 @@ section h3.section-subheading {
     right: 72px;
     color: #fff;
     font-size: 54px;
-    font-family: "kg_eyes_wide_openregular";
+    font-family: 'Indie Flower', cursive;
     text-transform: lowercase;
 }
 .timeline.stickleft .timeline-heading h4 span{
