@@ -1451,7 +1451,7 @@ a:focus {
 }
 
 .header-style-1 .couple-logo h1, .header-style-2 .couple-logo h1 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Tangerine", cursive;
   font-size: 35px;
   font-size: 1.94444rem;
   margin: 0;
@@ -1728,30 +1728,31 @@ a:focus {
 
 .hero .wedding-announcement .couple-name-merried-text {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .hero .wedding-announcement .couple-name-merried-text h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: 'Tangerine', cursive;
   font-size: 90px;
-  font-size: 5rem;
+  font-size: 6.5rem;
   color: #fff;
   margin: 0 0 0.4em;
   position: relative;
   z-index: 10;
+  top: 100px;
 }
 
 @media (max-width: 1199px) {
   .hero .wedding-announcement .couple-name-merried-text h2 {
     font-size: 70px;
-    font-size: 3.88889rem;
+    font-size: 5.055557rem;
   }
 }
 
 @media (max-width: 991px) {
   .hero .wedding-announcement .couple-name-merried-text h2 {
     font-size: 55px;
-    font-size: 3.05556rem;
+    font-size: 3.972228rem;
   }
 }
 
@@ -1827,9 +1828,9 @@ a:focus {
   -ms-border-radius: 50%;
   border-radius: 50%;
   opacity: 0;
-  -webkit-transition: 1s 2.3s ease-in-out;
-  -o-transition: 1s 2.3s ease-in-out;
-  transition: 1s 2.3s ease-in-out;
+  -webkit-transition: 1s 1s ease-in-out;
+  -o-transition: 1s 1s ease-in-out;
+  transition: 1s 1s ease-in-out;
 }
 
 @media (max-width: 1199px) {
@@ -1885,11 +1886,11 @@ a:focus {
 }
 
 .hero .wedding-announcement .save-the-date h4 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Dosis", sans-serif;
   font-size: 40px;
   font-size: 2.22222rem;
   color: #fff;
-  margin: 55px 0 0.2em;
+  margin: 78px 0 0.2em;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
@@ -1897,7 +1898,7 @@ a:focus {
   .hero .wedding-announcement .save-the-date h4 {
     font-size: 35px;
     font-size: 1.94444rem;
-    margin: 45px 0 0.15em;
+    margin: 64px 0 0.15em;
   }
 }
 
@@ -1905,7 +1906,7 @@ a:focus {
   .hero .wedding-announcement .save-the-date h4 {
     font-size: 28px;
     font-size: 1.55556rem;
-    margin: 30px 0 0.15em;
+    margin: 42px 0 0.15em;
   }
 }
 
