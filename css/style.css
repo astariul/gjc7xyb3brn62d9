@@ -2522,6 +2522,10 @@ a:focus {
 /*--------------------------------------------------------------
 #0.8	story-section
 --------------------------------------------------------------*/
+.story-section {
+  background-color: #f9f9f9;
+}
+
 .story-section .story-timeline {
   position: relative;
 }

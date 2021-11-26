@@ -708,6 +708,7 @@
             }
 
             smoothScrolling($("#navbar > ul > li > a[href^='#']"), $(".header-style-1 .navigation").innerHeight());
+            smoothScrolling($("#navbar > ul > li > ul > li > a[href^='#']"), $(".header-style-1 .navigation").innerHeight());
 
         });
 
