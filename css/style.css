@@ -2281,9 +2281,9 @@ a:focus {
 }
 
 .wedding-couple-section .details .signature {
-  font-family: "Great Vibes", cursive;
-  font-size: 28px;
-  font-size: 1.55556rem;
+  font-family: "Tangerine", cursive;
+  font-size: 39px;
+  font-size: 2.2rem;
   display: block;
   padding-left: 25px;
   margin-top: 15px;
@@ -2292,12 +2292,12 @@ a:focus {
 
 @media (max-width: 1199px) {
   .wedding-couple-section .details .signature {
-    font-size: 22px;
-    font-size: 1.22222rem;
+    font-size: 31px;
+    font-size: 1.73rem;
   }
 }
 
-.wedding-couple-section .details .signature:before {
+/* .wedding-couple-section .details .signature:before {
   content: "";
   background-color: #000;
   width: 15px;
@@ -2310,7 +2310,7 @@ a:focus {
   -o-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
+} */
 
 .wedding-couple-section .details .social-links {
   margin-top: 20px;
