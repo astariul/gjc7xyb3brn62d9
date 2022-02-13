@@ -1766,14 +1766,14 @@ a:focus {
 
 @media (max-width: 1199px) {
   .hero .wedding-announcement .couple-name-merried-text h2 {
-    font-size: 70px;
+    font-size: 80px;
     font-size: 5.055557rem;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 551px) {
   .hero .wedding-announcement .couple-name-merried-text h2 {
-    font-size: 55px;
+    font-size: 65px;
     font-size: 3.972228rem;
   }
 }
