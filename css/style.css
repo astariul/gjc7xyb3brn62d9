@@ -1778,6 +1778,13 @@ a:focus {
   }
 }
 
+@media (max-width: 375px) {
+  .hero .wedding-announcement .couple-name-merried-text h2 {
+    font-size: 55px;
+    font-size: 3.3763938rem;
+  }
+}
+
 .hero .wedding-announcement .married-text h4 {
   font-size: 26px;
   font-size: 1.44444rem;
