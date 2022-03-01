@@ -2230,6 +2230,14 @@ a:focus {
   overflow: hidden;
 }
 
+.kor {
+  font-family: 나눔스퀘어, 'NanumSquare', sans-serif !important;
+}
+
+.fatass {
+  font-weight: 800 !important;
+}
+
 .wedding-couple-section .gb > div {
   width: 50%;
   float: left;
