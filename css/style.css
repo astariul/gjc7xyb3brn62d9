@@ -4123,4 +4123,11 @@ a:focus {
 	height: 1200px;
 }
 
+.blink {
+  color: #d65200 !important;
+}
+.blink:hover {
+  color: #5e9a8e !important;
+}
+
 /*# sourceMappingURL=style.css.map */
