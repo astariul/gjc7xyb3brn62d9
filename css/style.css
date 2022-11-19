@@ -1573,7 +1573,7 @@ a:focus {
 --------------------------------------------------------------*/
 .hero {
   position: relative;
-  height: calc(100vh - 90px);
+  height: 100vh;
   min-height: 700px;
   overflow: hidden;
   /** slider controls **/
